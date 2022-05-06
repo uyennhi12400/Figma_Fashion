@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#abheader{
+    padding: 34px 80px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33.13px;
+    letter-spacing: 2.5px;
+}
+
+#navbar{
+    display:inline-block;
+    line-height: 18.55px;
+    margin-left: 60.03%; 
+
+}
+
+#navbar li {
+    display:inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px; 
+    height: 19px; 
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: black; 
+}
+
+#navbar li:hover a{
+    color: #C9A96E;
+}
+
+#container{
+    position:relative; 
+}
+
+.vehicle{
+    position: absolute; 
+    top: 615px;
+    left: 375px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
+
+.title{
+    position: absolute; 
+    top: 635px;
+    left: 375px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.date{
+    position:absolute;
+    top: 740px;
+    left: 375px; 
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.date span {
+    padding: 5px; 
+}
+
+.title, .date, .vehicle{
+    color: white; 
+}
+
+.pic{
+    background-image: 
+    linear-gradient(180deg, rgba(0, 0, 0, 6.5e-05) 0%, rgba(0, 0, 0, 0.65) 100%),
+    url(/assets/img/1.png);
+    height: 700px;
+    width: 1920px; 
+    display: block;  
+}
+
+input{
+    width:358px;
+    height: 50px;
+    border: 1px solid grey; 
+}
+input[type=text]{
+    padding-left: 10px;
+    color: #ccc; 
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card1{
+    height: 411px;
+    width: 370px; 
+    margin-top: 15px;
+    float:left;
+}
+
+.card2 {
+    height: 411px;
+    width: 370px; 
+    margin-top: 15px;
+    float:right;
+    padding-top: 72px;
+}
+
+.card3{
+    height: 411px;
+    width: 370px; 
+    margin-top: 80px;
+    float:left;
+}
+
+.card4, .card11{
+    height: 411px;
+    width: 370px; 
+    margin-top: 8px;
+    float:right;
+}
+
+.card5{
+    height: 411px;
+    width: 370px; 
+    float:left;
+}
+
+.card6{
+    height: 411px;
+    width: 370px; 
+    float:right;
+}
+
+.card7{
+    padding-top: 40px;
+    height:561px;
+    width: 770px; 
+    float:right
+}
+
+.text7{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C9A96E;
+    height: 16px;
+    padding: 25px 30px 6px 30px;
+}
+.te7{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    padding-left: 30px;
+    width: 614px;
+    height: 72px;
+}
+
+.card8 {
+    height: 411px;
+    width: 370px; 
+    float:left;
+    margin-top: 30px;
+} 
+
+.card9{
+    height: 411px;
+    width: 370px; 
+    float:right;
+    margin-top: 30px;
+}
+
+.card10{
+    height: 411px;
+    width: 370px; 
+    margin-top: 8px;
+    float:left ;
+}
+
+
+#contentl{
+    margin: 42px 775px 42px 375px;
+    width: 770px;
+    position:absolute;
+}
+
+.text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C9A96E;    
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 2px;
+}
+
+.tex{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #171717;
+    padding-bottom: 5px;
+}
+
+.te{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    text-align: center;
+}
+
+.card1r{
+    float:right;
+    height: 400px;
+    width: 270px;
+    margin-top: 60px;
+}
+
+#contentr{
+    margin-right: 375px; 
+
+}
+
+.author, .media{
+    height: 50px;
+    width: 268px;
+    border: 1px solid black; 
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    color: #171717;
+}
+
+.media{
+    float:right;
+    margin-top: 70px;
+}
+
+.kate{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #171717;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.kat{
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #B1B1B1;
+    padding-top: 4px;
+}
+
+.ka{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    height: 72px;
+    width: 230px; 
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.continue{
+    margin-top: 5px;
+    text-align: center;
+    line-height: 16px;
+    border: 1px solid #E5E5E5; 
+    padding: 20px 0; 
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;   
+    text-transform: uppercase;
+    color: #C9A96E;
+    width: 268px; 
+}
+
+.card2r {
+    float:right;
+    height: 300px;
+    width: 270px;
+    padding-top: 70px;
+}
+
+.card3r{
+    float:right;
+    height: 300px;
+    width: 270px;
+    margin-top: 50px;
+}
+
+.card4r{
+    float:right;
+    height: 300px;
+    width: 270px;
+    margin-top: 50px;
+}
+
+.tabl{
+    padding-right: 20px 
+}
+.tabr{
+    text-align: right;
+    padding-left: 120px;
+}
+
+.tabl, .tabr {
+    padding-top: 20px; 
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.tabl a{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.nine{
+    padding-top: 20px; 
+}
+
+.tab{
+    height: 88px;
+    width: 88px;
+
+}
